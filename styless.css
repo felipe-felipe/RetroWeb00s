@@ -1,0 +1,110 @@
+/* styles.css - Radical 2000s Styling */
+
+body {
+    background-image: url('images/tiled_background.gif');
+    color: #00ff00;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    cursor: url('images/hamster_cursor.cur'), auto;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 5px double magenta;
+    padding: 10px;
+    box-shadow: 0 0 20px fuchsia;
+  }
+  
+  .header-img {
+    width: 100%;
+    max-width: 100%;
+    border: 3px dashed lime;
+  }
+  
+  marquee {
+    font-size: 24px;
+    color: yellow;
+    background-color: purple;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    padding: 5px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: hotpink;
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+    color: lime;
+    background-color: cyan;
+  }
+  
+  main section {
+    margin-top: 20px;
+    padding: 15px;
+    border: 3px dotted yellow;
+    background-color: rgba(255, 192, 203, 0.6);
+    box-shadow: inset 0 0 10px gold;
+  }
+  
+  h1, h2 {
+    font-family: 'Impact', fantasy;
+    color: #ff66ff;
+    text-shadow: 2px 2px 5px blue;
+  }
+  
+  button {
+    background: linear-gradient(45deg, red, yellow);
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border: 3px solid purple;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px black;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    transform: scale(1.2);
+    background: linear-gradient(45deg, cyan, magenta);
+    color: white;
+  }
+  
+  form input, form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 8px;
+    border: 2px dashed deeppink;
+    background-color: lavenderblush;
+    font-size: 16px;
+  }
+  
+  footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: lightgray;
+    background-color: black;
+    padding: 10px;
+    border-top: 5px groove lime;
+  }
